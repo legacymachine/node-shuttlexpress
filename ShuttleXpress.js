@@ -165,17 +165,4 @@ class ShuttleXpress extends events.EventEmitter {
 
 }
 
-const shuttle = new ShuttleXpress();
-
-shuttle.on('event', (event) => {
-    console.dir(event);
-});
-
-shuttle.on('error', (err) => {
-    console.log(`error: ${err}`);
-});
-
-shuttle.on('connect', (msg) => {
-    console.log(msg);
-    console.dir(shuttle.getDeviceInfo());
-});
+module.exports = ShuttleXpress;

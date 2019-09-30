@@ -1,0 +1,26 @@
+{
+  "name": "node-shuttlexpress",
+  "version": "0.0.1",
+  "description": "NodeJS app for USB ShuttleXpress device control, built using node-hid",
+  "main": "ShuttleXpress.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/legacymachine/node-shuttlexpress.git"
+  },
+  "keywords": [
+    "ShuttleXpress"
+  ],
+  "author": "Josh Dudley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/legacymachine/node-shuttlexpress/issues"
+  },
+  "homepage": "https://github.com/legacymachine/node-shuttlexpress#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "node-hid": "^0.7.9"
+  }
+}

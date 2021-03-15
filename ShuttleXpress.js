@@ -79,11 +79,11 @@ class ShuttleXpress extends events.EventEmitter {
         const BTN_4 = 128;
         const BTN_5 = 1;
 
-        const JOG_ZONE_NEUTRAL = 0
-        const JOG_ZONE_POSITIVE_MIN = 1
-        const JOG_ZONE_POSITIVE_MAX = 7
-        const JOG_ZONE_NEGATIVE_MIN = 255
-        const JOG_ZONE_NEGATIVE_MAX = 249
+        const JOG_ZONE_NEUTRAL = 0;
+        const JOG_ZONE_POSITIVE_MIN = 1;
+        const JOG_ZONE_POSITIVE_MAX = 7;
+        const JOG_ZONE_NEGATIVE_MIN = 255;
+        const JOG_ZONE_NEGATIVE_MAX = 249;
 
         const INCREMENT_MIN = 0;
         const INCREMENT_MAX = 255;

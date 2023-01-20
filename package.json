@@ -1,6 +1,6 @@
 {
   "name": "node-shuttlexpress",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "NodeJS app for USB ShuttleXpress device control, built using node-hid",
   "main": "ShuttleXpress.js",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/legacymachine/node-shuttlexpress#readme",
   "dependencies": {
-    "debug": "^4.3.1",
-    "node-hid": "^2.1.1"
+    "debug": "^4.3.4",
+    "node-hid": "^2.1.2"
   }
 }
